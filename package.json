@@ -10,12 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.9.0",
     "docxtemplater": "^3.68.6",
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1",
+    "motion": "^12.40.0",
     "pizzip": "^3.2.0",
     "react": "^19.2.5",
+    "react-confetti": "^6.4.0",
     "react-dom": "^19.2.5",
+    "react-use": "^17.6.1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {

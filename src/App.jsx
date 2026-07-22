@@ -235,7 +235,7 @@ function App() {
           Swal.fire({
             icon: 'error',
             title: 'Terjadi Kesalahan',
-            text: 'Terjadi kesalahan saat memproses dokumen.',
+            text: error?.message || 'Terjadi kesalahan saat memproses dokumen.',
             confirmButtonColor: '#4f46e5',
             confirmButtonText: 'Tutup',
           });

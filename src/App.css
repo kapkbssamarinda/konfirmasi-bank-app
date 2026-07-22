@@ -579,6 +579,40 @@ body {
   color: #94a3b8;
 }
 
+/* ===== FORMAT TOGGLE ===== */
+.format-toggle {
+  display: inline-flex;
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 3px;
+  gap: 2px;
+}
+
+.format-toggle__btn {
+  padding: 6px 14px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: transparent;
+  color: #64748b;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  letter-spacing: 0.03em;
+}
+
+.format-toggle__btn:hover:not(.format-toggle__btn--active) {
+  background: rgba(240, 134, 134, 0.1);
+  color: var(--step-1);
+}
+
+.format-toggle__btn--active {
+  background: linear-gradient(135deg, #F08686, #D4917B);
+  color: white;
+  box-shadow: 0 2px 8px rgba(240, 134, 134, 0.35);
+}
+
 /* ===== RESULT CARD ===== */
 .result-card {
   background: linear-gradient(135deg, rgba(240, 134, 134, 0.05), rgba(156, 196, 149, 0.05));

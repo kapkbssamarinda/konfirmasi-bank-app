@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "api/convert.js": {
+      "memory": 1024,
+      "maxDuration": 30,
+      "includeFiles": "node_modules/docx-preview/dist/docx-preview.js,node_modules/jszip/dist/jszip.min.js"
+    }
+  }
+}

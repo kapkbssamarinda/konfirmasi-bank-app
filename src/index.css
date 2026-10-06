@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -6,22 +11,23 @@
 
 body {
   margin: 0;
-  font-feature-settings: "kern" 1, "liga" 1;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
 }
 
 #root {
   width: 100%;
-  min-height: 100svh;
+  min-height: 100dvh;
 }
 
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: rgba(240, 134, 134, 0.35); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(240, 134, 134, 0.55); }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
 
 ::selection {
-  background: rgba(240, 134, 134, 0.2);
-  color: #1a1a2e;
+  background: rgba(79, 70, 229, 0.15);
+  color: #0f172a;
 }
